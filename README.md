@@ -7,5 +7,9 @@ A dynamic web application that helps you recognize human faces in the image.
 ## Stack Used
 
 React.js, Node.js, Express.js, PostgreSQL
+
 DevOps: Heroku 
+
+
+
 
