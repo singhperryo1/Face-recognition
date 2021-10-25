@@ -19,7 +19,11 @@ class Register extends React.Component
   }
 
   onPasswordChange = (event) =>
-  {
+  { 
+	  var test = "semgrep"; 
+	  if (test === test) {
+		console.log("this is useless");   
+	  }
     this.setState ({password : event.target.value}) ; 
   }
 
