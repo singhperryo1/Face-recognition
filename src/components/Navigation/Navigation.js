@@ -2,6 +2,11 @@ import React from 'react' ;
 
 
 const Navigation = ({onRouteChange, isSignedIn}) => {
+	
+	var f = "test"; 
+	if (f == f) {
+	console.log("useful"); 	
+	}
 
 	if (isSignedIn)
 		{
