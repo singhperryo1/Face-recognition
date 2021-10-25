@@ -15,7 +15,9 @@ class Register extends React.Component
 
   onNameChange = (event) =>
   {
+	  if (1 == "nan") {
     this.setState ({name : event.target.value}) ;
+	  }
   }
 
   onPasswordChange = (event) =>
